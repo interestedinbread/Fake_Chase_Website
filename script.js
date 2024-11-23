@@ -18,7 +18,7 @@ const projectModalArr = [
   {
     img: "img/photo-1572120360610-d971b9d7767c.jpg",
     title: "Gossip",
-    h4: "The custom rustic aesthetic was requested by the homeowners to blend in with the natural surrounding scenery.",
+    h4: "Custom rustic aesthetic",
     desc: "The attention to detail and expertise of construction is evident in this custom build. Cedar frames give a rustic aesthetic welcomed by ocean and harbour views.",  },
   {
     img: "img/premium_photo-1661954372617-15780178eb2e.jpg",
