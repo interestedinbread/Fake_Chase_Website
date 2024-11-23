@@ -16,6 +16,9 @@
     box-sizing: border-box;
 }
 
+/* set size for all p elements */
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -34,7 +37,7 @@ body {
     text-align: left;
     margin: 20px 60px;
     width:fit-content;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     font-weight: 400;
     padding: 5px;
     color: white;
@@ -46,7 +49,7 @@ body {
 
 nav {
     display: flex;
-    width: 95%;
+    width: 98%;
     justify-content: space-between;
     background-color: white;
     z-index: 5;
@@ -62,8 +65,8 @@ nav {
 }
 
 .house-logo {
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
 }
 
 .logo-container {
@@ -75,14 +78,15 @@ nav {
 }
 
 .logo-text {
-    font-size: 0.5rem;
-    padding-top: 14px;
+    font-size: 0.7rem;
+    padding-top: 20px;
 }
 
 .nav-links{
     display: flex;
     justify-content: space-between;
     padding-right: 30px;
+    padding-top: 15px;
 }
 
 .nav-links a{
@@ -95,7 +99,7 @@ nav {
     padding: 1rem;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .small-screen-menu-toggle {
@@ -112,8 +116,8 @@ header {
 }
 
 .header-logo{
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
 }
 
 header h1 {
@@ -123,14 +127,14 @@ header h1 {
     padding-top: 15px;
     /* text-shadow: var(--drop-shadow); */
     line-height: 1.2;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .intro-paragraph {
-    line-height: 1.3rem;
+    line-height: 2rem;
     margin-top: 15px;
     padding: 5px 0px;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
 }
 
 .header-grid-container {
@@ -147,6 +151,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 .header-img-container {
@@ -165,7 +170,7 @@ header h1 {
 .border-div {
     height: 2px;
     background-color: var(--primary-color);
-    width: 91vw;
+    width: 95%;
     margin: 20px auto;
 }
 
@@ -179,7 +184,6 @@ header h1 {
     grid-gap: 45px;
     margin: 15px auto;
     padding-bottom: 30px;
-    border-bottom: 2px solid var(--primary-color);
 }
 
 .projects-section-2 img {
@@ -346,14 +350,14 @@ header h1 {
     color: var(--primary-color);
     padding: 8px;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .testimonial-author {
     color: var(--primary-color);
     text-align: end;
     padding: 8px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 1.3;
 }
 
@@ -388,22 +392,8 @@ header h1 {
 /* SERVICES SECTION */
 
 .services-section {
-    border-top: 2px solid var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
     max-width: 90vw;
     margin: 15px auto;
-}
-
-.services-section h2{
-    text-align: left;
-    margin: 20px 0px;
-    width:fit-content;
-    font-size: 0.8rem;
-    font-weight: 400;
-    padding: 5px;
-    color: white;
-    background-color: var(--primary-color);
-    border-radius: 3px;
 }
 
 .services-grid-container {
@@ -419,24 +409,25 @@ header h1 {
     grid-row-end: 3;
 }
 
-.services-section p {
-    font-size: 0.7rem;
+.service-description {
+    font-size: 1.1rem;
     padding-top: 20px;
     line-height: 1.5;
 }
 
 .services-section i {
-    font-size: 2rem;
+    font-size: 3rem;
     padding-bottom: 15px;
 }
 
 .services-section h4 {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     padding-bottom: 15px;
     border-bottom: 2px solid var(--primary-color);
 }
 
 .services-bold-text {
+    font-size: 2.3rem;
     margin-bottom: 20px;
 }
 
@@ -448,10 +439,9 @@ header h1 {
 
 .builder-img-container {
     width: 100%;
-    height: 350px;
+    height: 500px;
     display: flex;
     justify-content: center;
-    
 }
 
 .builder-pic {
@@ -464,12 +454,12 @@ header h1 {
 
 .team-section h1 {
     padding: 20px 60px;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .chase-intro {
-    font-size: 0.7rem;
-    padding: 0px 60px 20px 60px;
+    font-size: 1.1rem;
+    padding: 10px 60px 30px 60px;
 }
 
 .team-section .chase-quote {
@@ -477,8 +467,8 @@ header h1 {
     color: var(--primary-color);
     padding: 8px 0px 8px 60px;
     font-weight: 500;
-    font-size: 1.5rem;
-    margin-bottom: 50px;
+    font-size: 2.2rem;
+    margin-bottom: 75px;
 }
 
 .join-team-container {
@@ -499,16 +489,19 @@ header h1 {
 .join-team-text-container h1{
     padding-left: 38px;
     padding-bottom: 30px;
+    margin-top: 20px;
 }
 
 .join-team-text{
     padding-left: 38px;
-    margin-bottom: 40px;
-    font-size: 0.7rem;
+    margin: 30px 0px;
+    font-size: 1.2rem;
 }
 
 .join-team-text-container a{
     padding-left: 38px;
+    font-size: 1.5rem;
+    margin-top: 20px;
 }
 
 .join-team-img-container {
@@ -528,7 +521,7 @@ header h1 {
 .values-section-grid-container {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
     width: 90%;
     margin: 0px auto;
 }
@@ -538,18 +531,22 @@ header h1 {
     grid-row-end: 3;
 }
 
+.values-main-text {
+    font-size: 2.2rem;
+}
+
 .values-section-grid-container h4 {
-    font-size: 0.8rem;
+    font-size: 1.4rem;
 }
 
 .values-section-grid-container p {
-    font-size: 0.7rem;
+    font-size: 1.1rem;
     line-height: 1.5;
 }
 
 .values-icons {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     
 }
 
@@ -566,11 +563,15 @@ header h1 {
     margin-bottom: 20px;
 }
 
+.about-section h1 {
+    font-size: 2.2rem;
+}
+
 .about-section-grid-container{
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
     margin: 0px auto;
 }
 
@@ -582,8 +583,8 @@ header h1 {
 }
 
 .about-section-grid-container p{
-    font-size: 0.7rem;
-    line-height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
     padding-top: 15px;
 }
 
@@ -608,13 +609,13 @@ footer {
 }
 
 .footer-logo-text {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding-top: 35px;
     color: white;
 }
 
 footer a {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         padding-top: 5px;
         color: white;
 }
