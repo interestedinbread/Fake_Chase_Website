@@ -240,10 +240,8 @@ header h1 {
 
 .project-modal {
     position: fixed;
-    min-width: 80%;
-    min-height: 80%;
-    max-width: 90%;
-    max-height: 90%;
+    width: 80%;
+    height: 80%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -252,8 +250,13 @@ header h1 {
     z-index: 30;
 }
 
+.modal-figure {
+    height: 100%;
+}
+
 .modal-img-container {
-    height: 400px;
+    height: 70%;
+    width: auto;
     overflow: hidden;
     border-radius: 5px 5px 0px 0px;
 }
@@ -265,9 +268,9 @@ header h1 {
 }
 
 .project-modal figcaption {
-    padding: 10px 30px;
-    font-size: 0.7rem;
-    line-height: 1.5rem;
+    padding: 20px 30px;
+    font-size: 1.3rem;
+    line-height: 2rem;
 }
 
 .project-modal h4 {
@@ -275,8 +278,8 @@ header h1 {
     border-top: 2px solid var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
     width: 95%;
-    margin: 10px auto 0;
-    font-size: 1.5rem;
+    margin: 20px auto 0;
+    font-size: 2.2rem;
 }
 
 .project-modal span {
@@ -784,6 +787,10 @@ footer ul{
         z-index: 10;
     }
 
+    .modal-figure{
+        height: 100%;
+    }
+
     .show-modal {
         height: auto;
     }
@@ -795,7 +802,7 @@ footer ul{
     }
 
     .modal-img-container {
-        height: auto;
+        min-height: 70%;
     }
 
     .project-modal figcaption {
@@ -823,7 +830,7 @@ footer ul{
         width: 85%;
         margin-left: 20px;
         margin-top: 5px;
-        font-size: 1rem;
+        font-size: 2.2rem;
     }
 
     /* TESTIMONIALS SECTION */

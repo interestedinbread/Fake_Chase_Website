@@ -77,7 +77,7 @@ const testimonialContainers = document.querySelectorAll(".testimonial-container"
 const linkBtns = document.querySelectorAll(".link");
 const navlinkBtns = nav.querySelectorAll(".link");
 const navLogo = document.querySelector(".logo-container");
-navLinks = document.querySelector('.nav-links');
+const navLinks = document.querySelector('.nav-links');
 const menuToggleBtn = document.querySelector(".small-screen-menu-toggle");
 
 const testimonialBtnLeft = document.querySelector(
@@ -179,7 +179,7 @@ const displayModal = () => {
 
     // update inner html
 
-      projectModal.innerHTML = `<figure>
+      projectModal.innerHTML = `<figure class="modal-figure">
       <div class="modal-img-container">
       <img src="${projectModalArr[currentProject].img}"/>
       </div>
