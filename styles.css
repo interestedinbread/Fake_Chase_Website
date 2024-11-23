@@ -709,8 +709,8 @@ footer ul{
         height: 200px;
     }
 
-    .nav-links .link {
-        font-size: 0.6rem;
+    .nav-links li {
+        font-size: 0.8rem;
     }
 
     /* HEADER SECTION */
