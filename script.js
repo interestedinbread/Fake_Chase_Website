@@ -278,14 +278,14 @@ menuToggleBtn.addEventListener('click', function () {
 
 navlinkBtns.forEach(btn => {
   btn.addEventListener('click', function () {
-    if(navLinks.getBoundingClientRect().height === 200){
+    if(navLinks.getBoundingClientRect().height === 230){
       navLinks.classList.toggle('display-links');
     }
   })
 })
 
 window.addEventListener('scroll', function() {
-  if(scrollY === 0 && navLinks.getBoundingClientRect().height === 200){
+  if(scrollY === 0 && navLinks.getBoundingClientRect().height === 230){
     navLinks.classList.toggle('display-links');
   }
 })
