@@ -41,6 +41,8 @@ const closeModal = () => {
 
   // switch project
 
+let currentProject = 0;
+
 const chevronClickHandler = (e) => {
   if (e.target.classList.contains("fa-chevron-right")) {
     currentProject++;

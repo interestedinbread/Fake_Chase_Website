@@ -22,5 +22,4 @@ window.addEventListener("scroll", fixNav);
 
 // INITIALIZE MODAL PROJECT NUMBER AND BUTTONS
 
-let currentProject = 0;
 modalBtnSetup();
