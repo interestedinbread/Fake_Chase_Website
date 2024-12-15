@@ -1,6 +1,6 @@
 // IMPORTS
 
-import { nav, menuToggleBtn, navLinks, linkBtns, navLogo, navlinkBtns } from "./dom.js";
+import { nav, menuToggleBtn, navLinks, linkBtns, navLogo, navlinkBtns, navHeight } from "./dom.js";
 
 // TOGGLE FIXED NAVBAR
 
@@ -18,7 +18,7 @@ export const fixNav = () => {
   
   // SMOOTH SCROLL NAV LINKS
   
-export const navlinkClickHandler = (e) => {
+const navlinkClickHandler = (e) => {
     e.preventDefault();
     const id = e.target.getAttribute('href').slice(1);
     const element = document.getElementById(id);

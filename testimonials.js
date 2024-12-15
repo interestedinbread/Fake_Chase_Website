@@ -40,9 +40,6 @@ import { testimonialContainers } from "./dom.js";
   };
 
 
-
-
-
 // INITIALIZATION FUNCTION FOR TESTIMONIALS SECTION
 
 export const testimonialsInit = () => {
